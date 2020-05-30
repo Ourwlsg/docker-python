@@ -1,5 +1,5 @@
 ARG BASE_TAG=latest
-ARG TENSORFLOW_VERSION=2.2.0
+ARG TENSORFLOW_VERSION=1.15.2
 
 FROM gcr.io/kaggle-images/python-tensorflow-whl:${TENSORFLOW_VERSION}-py37-2 as tensorflow_whl
 FROM gcr.io/deeplearning-platform-release/base-cpu:${BASE_TAG}
